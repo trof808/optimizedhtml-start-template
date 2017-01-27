@@ -26,6 +26,7 @@ gulp.task('browser-sync', function() {
 	});
 });
 
+
 gulp.task('sass', ['headersass'], function() {
 	return gulp.src('app/sass/**/*.sass')
 		.pipe(sass({
